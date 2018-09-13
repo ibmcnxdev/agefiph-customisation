@@ -40,3 +40,10 @@
 .lotusui30 a.lotusAction {
     font-size: 0.9em !important;
 }
+
+/* Bouton désactivé */
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
