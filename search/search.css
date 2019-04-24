@@ -1,0 +1,145 @@
+/* Menu de gauche */
+.lotusui30 .lotusMenu li.lotusSelected {
+	border-left: 4px solid #EB6608 !important;
+}
+
+/* bordure haut et bas hover */
+.lotusui30 .lotusMenu li.lotusSelected a,
+.lotusui30 .lotusColLeft .lotusMenu li a:hover,
+.lotusui30 .lotusColLeft .lotusMenu li a:focus {
+	border-top: none !important;
+	border-bottom: none !important;	
+}
+
+.lotusui30 .lotusMenu li.lotusSelected a:focus, 
+.lotusui30 .lotusMenu li.lotusSelected a:hover {
+	border-top: 1px solid transparent !important;
+	border-bottom: 1px solid transparent !important;
+}
+
+/* Lien menu gauche */
+.lotusui30 .lotusMenu li.lotusSelected a, 
+.lotusui30 .lotusMenu li.lotusSelected a:focus,
+.lotusui30 .lotusMenu li a,
+.lotusui30 .lotusMenu li a:hover,
+.lotusui30 .lotusSection h2,
+.lotusui30_layout .lotusColLeft a,
+.lotusui30_layout .lotusColLeft .lconnEmpty {
+	color: #FFFFFF !important;
+}
+
+.lotusui30 .lotusColLeft .lotusInlinelist li {
+    border-left-color: #FFFFFF !important;
+    color: #FFFFFF !important;
+}
+
+/* Texte de recherche */
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch .icSearchInputBox input {
+	color: #1B4859 !important;
+	font-weight: bold !important;
+}
+
+/* Barre de recherche */
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch {
+	border-bottom-color: #EB6608 !important;
+}
+
+/* Appliquer */
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusForm a {
+	color: #1B4859 !important;
+}
+
+/* En tete contenu recherche */
+.lotusui30 .lotusHeader h1 {
+	color: #1B4859 !important;
+	font-weight: bold !important;
+}
+
+/* Barre contenu recherche */
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable {
+    border-top: 1px solid #1B4859 !important;
+}
+
+/* Texte contenu recherche */
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusSort,
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchDetails a{
+	color: #000000 !important;
+}
+
+.lconnSearchResults h4 a b {
+	font-weight: bold !important;
+	font-size: 14px !important;
+}
+
+/* Precent suivant barre recherche */
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .icPagination .lotusFirst,
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .icPagination .icNext {
+	color: #1B4859 !important;
+}
+
+/* Paging */
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusPaging {
+	color: #1B4859 !important;
+}
+
+/* Paging actif */
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .icPagination .icSelected {
+	color: #EB6608 !important;
+}
+
+.lotusui30 a, .lotusui30 a:hoover {
+    color: #1B4859;
+}
+
+.search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .icSearchTitle a, 
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchTitle a,
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover, 
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected {
+	color: #1B4859 !important;
+	font-weight: bold !important;
+}
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover {
+	border-left-color: #FFF !important;
+}
+
+.lotusui30 .lotusPaging ul li,
+.lotusui30 .lotusPaging ul li a,
+.lotusui30 .lotusFeeds a.lotusFeed {
+    color: #1B4859 !important;
+}
+ 
+/* Recherche avancée - gauche */
+.lotusui30_layout .lotusColLeft::after {
+	border-left-color: #1B4859 !important;
+	border-right-color: #1B4859 !important;
+	background-color: #1B4859 !important;
+}	
+
+.lotusui30_layout .lotusColLeft {
+	background-color: #1B4859 !important;	
+}
+
+/* Recherche avancée - Astuce */
+.lotusui30 .lotusTitleBar2 .lotusHeading .lotusText, 
+.lotusui30 .lotusColLeft .lotusInfoBox,
+.lotusui30 .lotusColLeft .lotusInfoBox h3 {
+	color: #FFFFFF !important;
+}
+
+.lotusui30 .lotusColLeft .lotusInfoBox h3 {
+	border-bottom-color: #1B4859 !important;
+	background-color: #708090 !important;
+}
+
+.lotusui30 .lotusColLeft .lotusInfoBox {
+	border: 1px solid #1B4859 !important;
+	background-color: #708090 !important;
+}	
+
+/* Recherche avancée - bouton rechercher */
+.lotusui30 .lotusBtn, .lotusui30 .lotusBtn:hover {
+	background-color: #EB6608 !important;
+	color: #FFFFFF !important;
+	box-shadow: none !important;
+}

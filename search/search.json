@@ -1,0 +1,25 @@
+{
+    "name": "Search",
+    "title": "Search",
+    "description": "Search : Customisation page de recherches.",
+    "services": [
+        "Customizer"
+    ],
+    "extensions": [
+        {
+            "name": "SearchCustomization",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "search/search.css",
+                    "search/commonTools.js",
+                    "search/search.js"
+                ],
+                "include-repo": {
+                    "name": "agefiph-customisation"
+                }
+            },
+            "path": "search"
+        }
+    ]
+}
